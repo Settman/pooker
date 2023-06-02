@@ -1,0 +1,36 @@
+body{
+    background-color: blue;
+}
+@media screen and ( min-width: 680px) {
+    body{
+        background-color: brown;
+    }
+}
+h1{
+    color: aqua;
+}
+@media screen and ( max-width: 400px) {
+    h1{
+        color: yellow;
+        font-weight: bolder;
+    }
+}
+.go{
+    display: flex;
+    justify-content: space-around;
+flex-direction:row-reverse;
+}
+.gom{
+    border: 10px solid;
+
+}
+.bo{
+    border: 10px solid;
+}
+@media screen and ( max-width:400px) {
+    .go{
+        display: flex;
+        flex-direction: column;
+    }
+}
+    
