@@ -34,3 +34,9 @@ flex-direction:row-reverse;
     }
 }
     
+.ok{
+    display: flex;
+    justify-content:space-around;
+    border: 5px solid;
+    margin:10px;
+}
